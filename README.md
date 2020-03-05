@@ -1,6 +1,8 @@
 # my-project
 
-## Project setup
+## 这是一款基于vue搭建的uni-app,微信小程序版本的懂你找图项目
+
+### Project setup
 ```
 yarn install
 ```
