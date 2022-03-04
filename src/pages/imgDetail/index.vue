@@ -202,7 +202,7 @@
 			},
 			getComments(id) {
 				this.request({
-					url: `http://157.122.54.189:9088/image/v2/wallpaper/wallpaper/${id}/comment`
+					url: `http://service.picasso.adesk.com/v2/wallpaper/wallpaper/${id}/comment`
 				}).then(result => {
 					console.log(result)
 					this.albums = result.res.album

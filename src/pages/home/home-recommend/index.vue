@@ -84,7 +84,7 @@
 			// 获取接口的数据
 			getList() {
 				this.request({
-					url: 'http://157.122.54.189:9088/image/v3/homepage/vertical',
+					url: 'http://service.picasso.adesk.com/v3/homepage/vertical',
 					data: this.params
 				}).then(result => {
 					console.log(result)
